@@ -8,6 +8,10 @@ import FraudAnalyticsPage from './pages/FraudAnalyticsPage';
 import LandingPage from './pages/LandingPage';
 import RoomIntegrityPage from './pages/RoomIntegrityPage';
 import SimulationPage from './pages/SimulationPage';
+import ClinicalPathwayAudit from './modules/clinical-pathway/pages/ClinicalPathwayAudit';
+import ClinicalPathwayDashboard from './modules/clinical-pathway/pages/ClinicalPathwayDashboard';
+import ClinicalPathwayDetail from './modules/clinical-pathway/pages/ClinicalPathwayDetail';
+import ClinicalPathwayPrint from './modules/clinical-pathway/pages/ClinicalPathwayPrint';
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
         <Route path="/room-integrity" element={<RoomIntegrityPage />} />
         <Route path="/audit-assistant" element={<AuditAssistantPage />} />
         <Route path="/simulation" element={<SimulationPage />} />
+        <Route path="/clinical-pathway" element={<ClinicalPathwayDashboard />} />
+        <Route path="/clinical-pathway/audit" element={<ClinicalPathwayAudit />} />
+        <Route path="/clinical-pathway/print/:id" element={<ClinicalPathwayPrint />} />
+        <Route path="/clinical-pathway/:id" element={<ClinicalPathwayDetail />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>

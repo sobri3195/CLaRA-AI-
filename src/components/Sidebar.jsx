@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { Activity, BadgeAlert, BedDouble, ClipboardList, Gauge, Home, Microscope, PlaySquare } from 'lucide-react';
+import { Activity, BadgeAlert, BedDouble, Brain, ClipboardList, Gauge, Home, Microscope, PlaySquare } from 'lucide-react';
 
 const navItems = [
   { to: '/dashboard', label: 'Dashboard', icon: Gauge },
@@ -8,6 +8,7 @@ const navItems = [
   { to: '/room-integrity', label: 'Room Integrity', icon: BedDouble },
   { to: '/audit-assistant', label: 'Audit Assistant', icon: ClipboardList },
   { to: '/simulation', label: 'Simulation', icon: PlaySquare },
+  { to: '/clinical-pathway', label: 'Clinical Pathway', icon: Brain },
 ];
 
 function Sidebar() {
