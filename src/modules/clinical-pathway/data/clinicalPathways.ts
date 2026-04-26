@@ -84,7 +84,7 @@ export const clinicalPathways: ClinicalPathway[] = [
       { id: 'hem-q3', label: 'Dokumentasi GCS serial', type: 'documentation' },
       { id: 'hem-q4', label: 'Edukasi pasien terdokumentasi', type: 'documentation' }
     ],
-    guidelines: ['Clinical Pathway Internal RS TMC Neurologi', 'Protokol Stroke Hemoragik RS TMC terbaru'],
+    guidelines: ['Clinical Pathway Internal Neurologi', 'Protokol Stroke Hemoragik terbaru'],
     notes: ['Dosis obat spesifik mengikuti kebijakan farmasi RS terbaru.']
   },
   {
@@ -148,7 +148,7 @@ export const clinicalPathways: ClinicalPathway[] = [
       { id: 'isk-q3', label: 'Skrining disfagia', type: 'clinical' },
       { id: 'isk-q4', label: 'Edukasi pasien terdokumentasi', type: 'documentation' }
     ],
-    guidelines: ['Clinical Pathway Internal RS TMC Neurologi', 'Protokol Stroke Iskemik RS TMC terbaru']
+    guidelines: ['Clinical Pathway Internal Neurologi', 'Protokol Stroke Iskemik terbaru']
   },
   {
     id: 'radikulopati',
@@ -200,7 +200,7 @@ export const clinicalPathways: ClinicalPathway[] = [
       { id: 'rad-q2', label: 'Edukasi non-bedah sebagai lini pertama', type: 'clinical' },
       { id: 'rad-q3', label: 'Imaging rasional', type: 'rational-use' }
     ],
-    guidelines: ['Clinical Pathway Internal RS TMC Neurologi', 'Panduan Nyeri Neuropatik RS TMC']
+    guidelines: ['Clinical Pathway Internal Neurologi', 'Panduan Nyeri Neuropatik']
   },
   {
     id: 'vertigo',
@@ -258,7 +258,7 @@ export const clinicalPathways: ClinicalPathway[] = [
       { id: 'ver-q2', label: 'Imaging rasional', type: 'rational-use' },
       { id: 'ver-q3', label: 'Penggunaan vestibular suppressant jangka pendek', type: 'safety' }
     ],
-    guidelines: ['Clinical Pathway Internal RS TMC Neurologi', 'Protokol Vertigo RS TMC']
+    guidelines: ['Clinical Pathway Internal Neurologi', 'Protokol Vertigo']
   },
   {
     id: 'epilepsi',
@@ -310,6 +310,6 @@ export const clinicalPathways: ClinicalPathway[] = [
       { id: 'epi-q2', label: 'Tata laksana kejang >5 menit sesuai protokol', type: 'safety' },
       { id: 'epi-q3', label: 'Edukasi kepatuhan OAE terdokumentasi', type: 'documentation' }
     ],
-    guidelines: ['Clinical Pathway Internal RS TMC Neurologi', 'Protokol Kejang dan Epilepsi RS TMC']
+    guidelines: ['Clinical Pathway Internal Neurologi', 'Protokol Kejang dan Epilepsi']
   }
 ];
