@@ -19,7 +19,7 @@ function ClinicalPathwayDashboard() {
   return (
     <div className="space-y-5">
       <header className="rounded-2xl bg-white p-6 shadow-card">
-        <h1 className="text-2xl font-bold text-slate-900">Clinical Pathway Neurologi RS TMC</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Clinical Pathway Neurologi</h1>
         <p className="mt-1 text-sm text-slate-600">Decision support berbasis CP internal — perlu validasi DPJP/SMF.</p>
       </header>
 
