@@ -1,4 +1,4 @@
-import { AlertCircle, BanknoteArrowDown, BanknoteArrowUp, ClipboardCheck, FileStack } from 'lucide-react';
+import { AlertCircle, Banknote, BanknoteArrowDown, ClipboardCheck, FileStack } from 'lucide-react';
 import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis, LineChart, Line } from 'recharts';
 import { auditTasks, claimsData, dashboardStats, hospitalsData, riskTrendData } from '../data/mockData';
 import AuditPriorityList from '../components/AuditPriorityList';
@@ -14,7 +14,7 @@ function DashboardPage() {
         <StatCard title="Klaim High-Risk" value={dashboardStats.highRiskClaims.toLocaleString('id-ID')} icon={AlertCircle} tone="danger" />
         <StatCard title="Klaim Medium-Risk" value={dashboardStats.mediumRiskClaims.toLocaleString('id-ID')} icon={ClipboardCheck} tone="warning" />
         <StatCard title="Klaim Low-Risk" value={dashboardStats.lowRiskClaims.toLocaleString('id-ID')} icon={ClipboardCheck} tone="success" />
-        <StatCard title="Estimasi Potensi Kerugian" value={`Rp ${dashboardStats.estimatedLoss.toLocaleString('id-ID')}`} icon={BanknoteArrowUp} tone="danger" />
+        <StatCard title="Estimasi Potensi Kerugian" value={`Rp ${dashboardStats.estimatedLoss.toLocaleString('id-ID')}`} icon={Banknote} tone="danger" />
         <StatCard title="Estimasi Potensi Penghematan" value={`Rp ${dashboardStats.estimatedSaving.toLocaleString('id-ID')}`} icon={BanknoteArrowDown} tone="teal" />
       </div>
 
